@@ -12,6 +12,10 @@ import Foundation
 //    func add(x:Int)
 //}
 
+enum MyEnum {
+    case case0,case1,case2
+}
+
 
 class SomeClass : NSObject {
     static func hello() {
@@ -24,6 +28,18 @@ class SomeClass : NSObject {
     
     static func addC(x:Int) -> (Int) -> Int {
         return {y in x + y}
+    }
+    
+    func request(num:MyEnum) -> MyEnum {
+        return num
+    }
+    
+    func request(i:Int) -> Int {
+        return i
+    }
+    
+    func request(_ i:Int) -> Int {
+        return i
     }
 
 }
