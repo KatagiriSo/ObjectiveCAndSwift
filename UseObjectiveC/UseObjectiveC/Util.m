@@ -63,3 +63,8 @@ void VectorTwice(Vector *v) {
     v->x = v->x * 2;
     v->y = v->y * 2;
 }
+
+NSString *str = @"STR";
+
+
+

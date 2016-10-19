@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define MACRO_USER_NUM = 1
+#define MACRO_USER_NUM 1
 
 @protocol ProtocolA <NSObject>
 - (NSArray<NSNumber *> *)addOne:(NSArray<NSNumber *> *)numbers;
@@ -50,7 +50,7 @@ Vector add(Vector *a, Vector *b);
 Vector add2(Vector a, Vector b);
 void VectorTwice(Vector *v);
 
-
+extern NSString *str;
 
 
 

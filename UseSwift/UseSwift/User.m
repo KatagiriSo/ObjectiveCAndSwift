@@ -25,7 +25,18 @@
     NSLog(@"%ld",(long)d1); // 4
     NSLog(@"%ld",(long)d2); // 3
 
-
 //    NSInteger d3 = [c requestWithNum:5] No Visible!
+    
+//    MyEnum x = MyEnumCase1; No Visible!
+    
+//    Vector v = {1,2}; No Visible!
+    
+//    funcA(); No Visible!
+    
+//    NSLog(@"%d",f); //No Visible!
+//    NSLog(@"%d",v); //No Visible!
+    
+//    g(4); //No Visible!
+    
 }
 @end

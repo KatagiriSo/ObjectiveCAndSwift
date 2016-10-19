@@ -66,6 +66,8 @@ print(v1)
 VectorTwice(&v1)
 print(v1)
 
+print(str)
+print(MACRO_USER_NUM)
 
 
 
